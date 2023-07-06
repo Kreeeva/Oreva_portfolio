@@ -1,6 +1,6 @@
 title: Ubrufih Orevaoghene
 remote_theme: pages-themes/minimal@v0.2.0
-logo: /assets/img/portfolio_1.png
+logo: /assets/img/portfolio2.png
 show_downloads: true
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
