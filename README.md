@@ -1,17 +1,19 @@
-# __Full-Stack Data Analyst__
+![image](https://github.com/Kreeeva/Oreva_portfolio/assets/102390650/cd92e660-a3b8-4aff-b33e-63d3cc415b4b)# __Full-Stack Data Analyst__
 
 
 ## Education :
 
+
 ### Data Analyst Fellowship Training Betaverse Analytics 
 __Issued October 2022__
-Data Visualization, Data Cleaning, R, Python, SQL, Machine Learning, Microsoft Excel
+Relevant skills: Data Visualization, Data Cleaning, R, Python, SQL, Machine Learning, Microsoft Excel
 
 
 ### IBM Full Stack Software Developer Professional Certificate 
 __Issued December 2022__
-(https://www.credly.com/badges/5732bec9-20e1-49c6-b50b-3fce59f3074f/public_url)
+<https://www.credly.com/badges/5732bec9-20e1-49c6-b50b-3fce59f3074f/public_url>
 Relevant skills: HTML, CSS, JavaScript,  Node.js, React,  DevOps, Docker, Kubernetes,  Databases, SQL, NoSQL, Django ORM, Serverless computing, CI/CD
+
 
 ### Rivers State University  - B. Tech Civil Engineering (2:1)
 __October 2015 - August 2021__
