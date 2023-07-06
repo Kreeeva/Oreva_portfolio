@@ -1,19 +1,19 @@
 # __Full-Stack Data Analyst__
 
 
-__ ## Education:__
+__ ## Education : __
 
-__ ### Data Analyst Fellowship Training Betaverse Analytics__
+__ ### Data Analyst Fellowship Training Betaverse Analytics __
 Issued October 2022
 Data Visualization, Data Cleaning, R, Python, SQL, Machine Learning, Microsoft Excel
 
 
-__ ### IBM Full Stack Software Developer Professional Certificate__
+__ ### IBM Full Stack Software Developer Professional Certificate __
 Issued December 2022
 https://www.credly.com/badges/5732bec9-20e1-49c6-b50b-3fce59f3074f/public_url
 Relevant skills: HTML, CSS, JavaScript,  Node.js, React,  DevOps, Docker, Kubernetes,  Databases, SQL, NoSQL, Django ORM, Serverless computing, CI/CD
 
-__ ### Rivers State University  - B. Tech Civil Engineering (2:1)__
+__ ### Rivers State University  - B. Tech Civil Engineering (2:1) __
 October 2015 - August 2021
 -statistics, probability, and Model Analysis
 -Coursework on Structural analysis and design
