@@ -1,4 +1,4 @@
-![image](https://github.com/Kreeeva/Oreva_portfolio/assets/102390650/cd92e660-a3b8-4aff-b33e-63d3cc415b4b)# __Full-Stack Data Analyst__
+# Full-Stack Data Analyst
 
 
 ## Education :
