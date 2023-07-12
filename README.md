@@ -35,9 +35,10 @@ database: IBM Cloudant (JSON document database based on Apache CouchDB)
 Stack: IBM Cloud, Django, Html 5, bootstrap
 features: Quizzes, Learning modules, 
 
-[project 2](https://github.com/Kreeeva/simple-jupyter-note-book.git)
-EDA and Predictive analysis on Housing price data.
+[project 2](https://github.com/Kreeeva/EDA-HouseSales-Lab.git)
+EDA and Predictive analysis on Housing price data. Dataset Description: This dataset contains house sale prices for King County, which includes Seattle. It includes homes sold between May 2014 and May 2015.
+
 [project 3](https://github.com/Kreeeva/cazgi-IBM-Watson-NLU-Project.git)
-Natural Language translator (Cloud Application)
+Natural Language Translator (Cloud Application)
 [project 4]()
 [project 5]()
