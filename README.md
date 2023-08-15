@@ -14,7 +14,7 @@ Relevant skills: Data Visualization, Data Cleaning, R, Python, SQL, Machine Lear
 __Issued December 2022__
 <https://www.credly.com/badges/5732bec9-20e1-49c6-b50b-3fce59f3074f/public_url>
 Relevant skills: 
-Cloud Native, DevOps, Iaas PaaS Saas, Hybrid Multicloud, Cloud Computing, Data Science, Python Programming, Data Analysis, Numpy, Artificial Intelligence (AI), Web Development, Relational Database (RDBMS), Object Relational Mapping (ORM), SQL, Django (Web Framework), Kubernetes, Docker, Openshift, serverless, REST api, Cloud Applications
+Cloud Computing, Data Science, Python Programming, Data Analysis, Numpy, Artificial Intelligence (AI), Web Development, Relational Database (RDBMS), Object Relational Mapping (ORM), SQL, Django (Web Framework), Kubernetes, REST api, Cloud Applications
 
 
 ### Python for Data Science and AI
@@ -38,9 +38,8 @@ Exploratory data analysis and Predictive analysis on Housing price data. Dataset
 ![q4](https://github.com/Kreeeva/Oreva_portfolio/assets/102390650/c4325fa2-bca7-48c7-8286-e3221663cd57)
 
 
-
-
 ## [project 2](https://github.com/Kreeeva/POWERBI/blob/main/bitcoin%20report.pdf)
+__Analysis and visualization of Bitcoin data (PowerBI)__
 ![bitcoin](https://github.com/Kreeeva/Oreva_portfolio/assets/102390650/1292b08a-dbf9-41b9-a8e1-884f2218588b)
 
 
@@ -50,6 +49,7 @@ This program harnesses the power of advanced linguistic algorithms to decode and
 
 
 ## [project 4](https://github.com/Kreeeva/POWERBI/blob/main/OLIST%20DATA%20DASHBOARD%20(2).pdf)
+__EDA and Predictive analysis on Ecommerce(O-list) data__
 ![ecommerce](https://github.com/Kreeeva/Oreva_portfolio/assets/102390650/01fa367f-2da7-439e-adca-55f921d49ae3)
 
 
