@@ -32,7 +32,7 @@ __October 2015 - August 2021__
 ### Projects:
 
 
-[project 1](https://github.com/Kreeeva/EDA-HouseSales-Lab.git)
+## [project 1](https://github.com/Kreeeva/EDA-HouseSales-Lab.git)
 __EDA and Predictive analysis on Housing price data__
 Exploratory data analysis and Predictive analysis on Housing price data. Dataset Description: This dataset contains house sale prices for King County, which includes Seattle. It includes homes sold between May 2014 and May 2015.
 ![q4](https://github.com/Kreeeva/Oreva_portfolio/assets/102390650/c4325fa2-bca7-48c7-8286-e3221663cd57)
@@ -40,24 +40,24 @@ Exploratory data analysis and Predictive analysis on Housing price data. Dataset
 
 
 
-[project 2](https://github.com/Kreeeva/POWERBI/blob/main/bitcoin%20report.pdf)
+## [project 2](https://github.com/Kreeeva/POWERBI/blob/main/bitcoin%20report.pdf)
 ![bitcoin](https://github.com/Kreeeva/Oreva_portfolio/assets/102390650/1292b08a-dbf9-41b9-a8e1-884f2218588b)
 
 
-[project 3](https://github.com/Kreeeva/cazgi-IBM-Watson-NLU-Project.git)
+## [project 3](https://github.com/Kreeeva/cazgi-IBM-Watson-NLU-Project.git)
 __Natural Language Translator (Cloud Application)__
 This program harnesses the power of advanced linguistic algorithms to decode and understand human language patterns effortlessly. By analyzing text data, it generates a sentiment of the sentence which can be used for informed decision-making.
 
 
-[project 4](https://github.com/Kreeeva/POWERBI/blob/main/OLIST%20DATA%20DASHBOARD%20(2).pdf)
+## [project 4](https://github.com/Kreeeva/POWERBI/blob/main/OLIST%20DATA%20DASHBOARD%20(2).pdf)
 ![ecommerce](https://github.com/Kreeeva/Oreva_portfolio/assets/102390650/01fa367f-2da7-439e-adca-55f921d49ae3)
 
 
-[project 5](https://github.com/Kreeeva/final-cloud-app-with-database.git)
+## [project 5](https://github.com/Kreeeva/final-cloud-app-with-database.git)
 __Full Stack Online Course Cloud application__
 database: IBM Cloudant (JSON document database based on Apache CouchDB)
 Stack: IBM Cloud, Django, Html 5, bootstrap
 features: Quizzes, Learning modules, 
 
-[project 6](https://github.com/Kreeeva/POWERBI/blob/main/flights%20report.pdf)
+
 
