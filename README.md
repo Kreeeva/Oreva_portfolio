@@ -14,7 +14,7 @@ Relevant skills: Data Visualization, Data Cleaning, R, Python, SQL, Machine Lear
 __Issued December 2022__
 <https://www.credly.com/badges/5732bec9-20e1-49c6-b50b-3fce59f3074f/public_url>
 Relevant skills: 
-Cloud Computing, Data Science, Python Programming, Data Analysis, Numpy, Artificial Intelligence (AI), Web Development, Relational Database (RDBMS), Object Relational Mapping (ORM), SQL, Django (Web Framework), Kubernetes, REST api, Cloud Applications
+Cloud Computing, Data Science, Python Programming, Data Analysis, Numpy, Artificial Intelligence (AI), Web Development, Relational Database (RDBMS), Object Relational Mapping (ORM), SQL, Django (Web Framework), REST API, Cloud Applications
 
 
 ### Python for Data Science and AI
@@ -25,13 +25,9 @@ __Issued March 2022__
 __October 2015 - August 2021__
 - statistics, probability, and Model Analysis
 - Coursework on Structural analysis and design
-- Project on analysis and design of Water treatment plant
-
 
 
 ### Projects:
-
-
 ## [project 1](https://github.com/Kreeeva/EDA-HouseSales-Lab.git)
 __EDA and Predictive analysis on Housing price data__
 Exploratory data analysis and Predictive analysis on Housing price data. Dataset Description: This dataset contains house sale prices for King County, which includes Seattle. It includes homes sold between May 2014 and May 2015.
