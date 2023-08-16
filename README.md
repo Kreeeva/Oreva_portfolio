@@ -25,8 +25,8 @@ __October 2015 - August 2021__
 - Coursework on Structural analysis and design
 
 # Projects:
-## [project 1](https://github.com/Kreeeva/EDA-HouseSales-Lab.git)
-__EDA and Predictive analysis on Housing price data__
+## __EDA and Predictive analysis on Housing price data (using advanced regression techniques)__
+[view code](https://github.com/Kreeeva/EDA-HouseSales-Lab.git)
 Exploratory data analysis and Predictive analysis on Housing price data. Dataset Description: This dataset contains house sale prices for King County, which includes Seattle. It includes homes sold between May 2014 and May 2015.
 ![q4](https://github.com/Kreeeva/Oreva_portfolio/assets/102390650/c4325fa2-bca7-48c7-8286-e3221663cd57)
 
