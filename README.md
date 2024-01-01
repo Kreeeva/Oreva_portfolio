@@ -1,8 +1,7 @@
-# Full-Stack Data Analyst
+# Data Scientist
 
 
 ## Education :
-
 
 
 ### Data Analyst Fellowship Training Betaverse Analytics 
