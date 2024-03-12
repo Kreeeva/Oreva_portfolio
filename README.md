@@ -8,15 +8,17 @@
 __Issued October 2022__
 Relevant skills: Data Visualization, Data Cleaning, R, Python, SQL, Machine Learning, Microsoft Excel
 
+### IBM Data Science Professional Certificate 
+__Issued November 2023__
+<https://www.coursera.org/account/accomplishments/specialization/PTZERS3PJYLP>
+Relevant skills: 
+Data Science, Big Data, Python Programming, Github, Machine Learning, Deep Learning, Methodology, SQL,Rstudio, Data Mining, Jupyter notebooks
+
 ### IBM Full Stack Software Developer Professional Certificate 
 __Issued December 2022__
 <https://www.credly.com/badges/5732bec9-20e1-49c6-b50b-3fce59f3074f/public_url>
 Relevant skills: 
 Cloud Computing, Data Science, Python Programming, Data Analysis, Numpy, Artificial Intelligence (AI), Web Development, Relational Database (RDBMS), Object Relational Mapping (ORM), SQL, Django (Web Framework), REST API
-
-### Python for Data Science and AI
-__Issued March 2022__
-<https://www.credly.com/badges/2b6ea32a-849d-49b8-9185-1238ecaa3885?source=linked_in_profile>
 
 ### Rivers State University  - B. Tech Civil Engineering (2:1)
 __October 2015 - August 2021__
