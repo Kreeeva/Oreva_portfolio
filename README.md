@@ -4,15 +4,15 @@
 ## Education :
 
 
-### Data Analyst Fellowship Training Betaverse Analytics 
-__Issued October 2022__
-Relevant skills: Data Visualization, Data Cleaning, R, Python, SQL, Machine Learning, Microsoft Excel
-
 ### IBM Data Science Professional Certificate 
 __Issued November 2023__
 <https://www.coursera.org/account/accomplishments/specialization/PTZERS3PJYLP>
 Relevant skills: 
 Data Science, Big Data, Python Programming, Github, Machine Learning, Deep Learning, Methodology, SQL,Rstudio, Data Mining, Jupyter notebooks
+
+### Data Analyst Fellowship Training Betaverse Analytics 
+__Issued October 2022__
+Relevant skills: Data Visualization, Data Cleaning, R, Python, SQL, Machine Learning, Microsoft Excel
 
 ### IBM Full Stack Software Developer Professional Certificate 
 __Issued December 2022__
