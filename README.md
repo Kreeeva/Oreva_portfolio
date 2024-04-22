@@ -22,8 +22,8 @@ Cloud Computing, Data Science, Python Programming, Data Analysis, Numpy, Artific
 
 ### Rivers State University  - B. Tech Civil Engineering (2:1)
 __October 2015 - August 2021__
-- statistics, probability, Transportation Engineering, Model Analysis
-- Coursework on Structural analysis and design
+- Statistics, Probability, Transportation Engineering, Model Analysis
+- Coursework on Structural Analysis and Design
 
 # Projects:
 ## Route Optimisation with Python for Logistics/Transportation challenges
