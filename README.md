@@ -22,10 +22,15 @@ Cloud Computing, Data Science, Python Programming, Data Analysis, Numpy, Artific
 
 ### Rivers State University  - B. Tech Civil Engineering (2:1)
 __October 2015 - August 2021__
-- statistics, probability, and Model Analysis
+- statistics, probability, Transportation Engineering, Model Analysis
 - Coursework on Structural analysis and design
 
 # Projects:
+## Route Optimisation with Python for Logistics/Transportation challenges
+[view code](https://github.com/Kreeeva/Route-Optimizer.git)
+![Travelling salesman](https://github.com/Kreeeva/Oreva_portfolio/assets/102390650/02c944fd-f49b-486a-b7d5-3b772e64d3e4)
+
+
 ## __EDA and Predictive analysis on Housing price data (using advanced regression techniques)__
 [view code](https://github.com/Kreeeva/EDA-HouseSales-Lab.git)
 Exploratory data analysis and Predictive analysis on Housing price data. Dataset Description: This dataset contains house sale prices for King County, which includes Seattle. It includes homes sold between May 2014 and May 2015.
