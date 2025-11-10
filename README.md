@@ -4,8 +4,7 @@
 ## Education & Certification :
 
 ### Microsoft Certified: Azure Data Scientist Associate 
-__Issued October 2025__
-Certificate Number: A6AFD2-DEV05B
+__Issued October 2025__ (Certificate Number: A6AFD2-DEV05B)
 Relevant skills: 
 setting up an Azure Machine Learning workspace, preparing data, training and optimizing models using tools like the Designer and SDK, deploying models as web services,  running experiments, monitoring models, and using Responsible AI principles.
 
