@@ -177,31 +177,24 @@
 
     /* ── SKILLS ── */
     #skills { background: var(--surface); }
-    .skills-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-      gap: 0.75rem;
-    }
-    .skill-chip {
+    .word-cloud {
       display: flex;
-      align-items: center;
-      gap: 0.5rem;
-      padding: 0.6rem 1rem;
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      font-size: 0.8rem;
-      font-weight: 500;
-      color: var(--text);
-      transition: border-color 0.2s, color 0.2s;
+      flex-wrap: wrap;
+      gap: 0.6rem 1.2rem;
+      align-items: baseline;
+      padding: 0.5rem 0;
     }
-    .skill-chip:hover { border-color: var(--accent); color: var(--accent); }
-    .skill-dot {
-      width: 6px; height: 6px;
-      border-radius: 50%;
-      background: var(--accent);
-      flex-shrink: 0;
+    .wc-word {
+      font-weight: 600;
+      cursor: default;
+      transition: color 0.2s, transform 0.2s;
+      line-height: 1.3;
     }
+    .wc-word:hover { color: var(--accent) !important; transform: scale(1.08); }
+    .wc-xl  { font-size: 2rem;   color: #e2e8f0; }
+    .wc-lg  { font-size: 1.5rem; color: #94a3b8; }
+    .wc-md  { font-size: 1.15rem; color: #64748b; }
+    .wc-sm  { font-size: 0.9rem;  color: #475569; }
 
     /* ── CERTIFICATIONS ── */
     .certs-grid {
@@ -307,6 +300,58 @@
     .project-link:hover { gap: 0.7rem; }
     .project-link svg { width: 14px; height: 14px; }
 
+    /* ── EXPERIENCE ── */
+    .experience-list { display: flex; flex-direction: column; gap: 1.5rem; }
+    .exp-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--accent);
+      border-radius: var(--radius);
+      padding: 1.75rem;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+    .exp-card:hover { border-left-color: var(--accent2); transform: translateX(4px); }
+    .exp-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 1rem;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+    }
+    .exp-role { font-weight: 700; font-size: 1rem; margin-bottom: 0.2rem; }
+    .exp-company { font-size: 0.875rem; color: var(--accent); font-weight: 500; }
+    .exp-date {
+      font-family: 'Fira Code', monospace;
+      font-size: 0.75rem;
+      color: var(--muted);
+      white-space: nowrap;
+      padding-top: 0.2rem;
+    }
+    .exp-bullets {
+      list-style: none;
+      margin-bottom: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    .exp-bullets li {
+      font-size: 0.855rem;
+      color: var(--muted);
+      padding-left: 1.25rem;
+      position: relative;
+      line-height: 1.6;
+    }
+    .exp-bullets li::before {
+      content: '▸';
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+      font-size: 0.7rem;
+      top: 0.15em;
+    }
+    .exp-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+
     /* ── CONTACT ── */
     #contact {
       text-align: center;
@@ -354,6 +399,7 @@
   <a class="nav-logo" href="#">&lt;Oreva /&gt;</a>
   <ul class="nav-links">
     <li><a href="#skills">Skills</a></li>
+    <li><a href="#experience">Experience</a></li>
     <li><a href="#certifications">Certifications</a></li>
     <li><a href="#projects">Projects</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -373,6 +419,7 @@
       <div class="hero-btns">
         <a class="btn btn-primary" href="#projects">View Projects</a>
         <a class="btn btn-outline" href="https://github.com/Kreeeva" target="_blank" rel="noopener">GitHub Profile</a>
+        <a class="btn btn-outline" href="assets/Oreva_CV_DataScientistAnalyst.pdf" download>Download CV</a>
       </div>
     </div>
     <img
@@ -392,25 +439,31 @@
       <h2>Skills &amp; Technologies</h2>
       <div class="section-line"></div>
     </div>
-    <div class="skills-grid">
-      <div class="skill-chip"><span class="skill-dot"></span>Python</div>
-      <div class="skill-chip"><span class="skill-dot"></span>Machine Learning</div>
-      <div class="skill-chip"><span class="skill-dot"></span>Deep Learning</div>
-      <div class="skill-chip"><span class="skill-dot"></span>SQL</div>
-      <div class="skill-chip"><span class="skill-dot"></span>R</div>
-      <div class="skill-chip"><span class="skill-dot"></span>Azure ML</div>
-      <div class="skill-chip"><span class="skill-dot"></span>IBM Cloud</div>
-      <div class="skill-chip"><span class="skill-dot"></span>Power BI</div>
-      <div class="skill-chip"><span class="skill-dot"></span>Data Visualization</div>
-      <div class="skill-chip"><span class="skill-dot"></span>NLP</div>
-      <div class="skill-chip"><span class="skill-dot"></span>Django</div>
-      <div class="skill-chip"><span class="skill-dot"></span>REST APIs</div>
-      <div class="skill-chip"><span class="skill-dot"></span>NumPy / Pandas</div>
-      <div class="skill-chip"><span class="skill-dot"></span>Jupyter</div>
-      <div class="skill-chip"><span class="skill-dot"></span>GitHub</div>
-      <div class="skill-chip"><span class="skill-dot"></span>Data Mining</div>
-      <div class="skill-chip"><span class="skill-dot"></span>Regression Models</div>
-      <div class="skill-chip"><span class="skill-dot"></span>Cloud Databases</div>
+    <div class="word-cloud">
+      <span class="wc-word wc-xl">Python</span>
+      <span class="wc-word wc-xl">Machine Learning</span>
+      <span class="wc-word wc-lg">LLMs / Generative AI</span>
+      <span class="wc-word wc-lg">SQL</span>
+      <span class="wc-word wc-xl">RAG</span>
+      <span class="wc-word wc-lg">scikit-learn</span>
+      <span class="wc-word wc-md">Statistical Modelling</span>
+      <span class="wc-word wc-lg">NLP</span>
+      <span class="wc-word wc-md">XGBoost</span>
+      <span class="wc-word wc-lg">Azure ML</span>
+      <span class="wc-word wc-sm">TensorFlow / PyTorch</span>
+      <span class="wc-word wc-md">NumPy / Pandas</span>
+      <span class="wc-word wc-lg">Prompt Engineering</span>
+      <span class="wc-word wc-sm">Time Series Forecasting</span>
+      <span class="wc-word wc-md">ETL Pipelines</span>
+      <span class="wc-word wc-sm">A/B Testing</span>
+      <span class="wc-word wc-md">Power BI</span>
+      <span class="wc-word wc-sm">Docker / Kubernetes</span>
+      <span class="wc-word wc-md">PostgreSQL</span>
+      <span class="wc-word wc-sm">React.js / Next.js</span>
+      <span class="wc-word wc-sm">MongoDB</span>
+      <span class="wc-word wc-sm">Tableau</span>
+      <span class="wc-word wc-sm">JavaScript</span>
+      <span class="wc-word wc-sm">Matplotlib / Seaborn</span>
     </div>
   </div>
 </section>
@@ -430,7 +483,34 @@
         <div>
           <p class="cert-title">Microsoft Certified: Azure Data Scientist Associate</p>
           <p class="cert-meta">Issued October 2025 · ID: A6AFD2-DEV05B</p>
-          <span class="cert-badge">AZ-900 / DP-100</span>
+          <span class="cert-badge">DP-100</span>
+        </div>
+      </div>
+
+      <div class="cert-card">
+        <div class="cert-icon azure">🤖</div>
+        <div>
+          <p class="cert-title">Microsoft Certified: Azure AI Fundamentals</p>
+          <p class="cert-meta">Microsoft · AI-900</p>
+          <span class="cert-badge">AI-900</span>
+        </div>
+      </div>
+
+      <div class="cert-card">
+        <div class="cert-icon azure">🗄️</div>
+        <div>
+          <p class="cert-title">Microsoft Certified: Azure Data Fundamentals</p>
+          <p class="cert-meta">Microsoft · DP-900</p>
+          <span class="cert-badge">DP-900</span>
+        </div>
+      </div>
+
+      <div class="cert-card">
+        <div class="cert-icon azure">🌐</div>
+        <div>
+          <p class="cert-title">Microsoft Certified: Azure Fundamentals</p>
+          <p class="cert-meta">Microsoft · AZ-900</p>
+          <span class="cert-badge">AZ-900</span>
         </div>
       </div>
 
@@ -444,15 +524,6 @@
       </div>
 
       <div class="cert-card">
-        <div class="cert-icon beta">📊</div>
-        <div>
-          <p class="cert-title">Data Analyst Fellowship — Betaverse Analytics</p>
-          <p class="cert-meta">Issued October 2022</p>
-          <span class="cert-badge">Data Analytics</span>
-        </div>
-      </div>
-
-      <div class="cert-card">
         <div class="cert-icon ibm">💻</div>
         <div>
           <p class="cert-title">IBM Full Stack Software Developer Professional Certificate</p>
@@ -462,11 +533,117 @@
       </div>
 
       <div class="cert-card">
+        <div class="cert-icon beta">📊</div>
+        <div>
+          <p class="cert-title">Data Analyst Fellowship — Betaverse Analytics</p>
+          <p class="cert-meta">Issued October 2022</p>
+          <span class="cert-badge">Data Analytics</span>
+        </div>
+      </div>
+
+      <div class="cert-card">
+        <div class="cert-icon uni">🎓</div>
+        <div>
+          <p class="cert-title">MSc Data Science <span style="color:var(--muted);font-weight:400">(in progress)</span></p>
+          <p class="cert-meta">University of Greenwich · Jan 2026 – Jan 2027</p>
+          <span class="cert-badge">Big Data · ML · Time Series</span>
+        </div>
+      </div>
+
+      <div class="cert-card">
         <div class="cert-icon uni">🎓</div>
         <div>
           <p class="cert-title">B.Tech Civil Engineering (2:1)</p>
           <p class="cert-meta">Rivers State University · 2015 – 2021</p>
           <span class="cert-badge">Statistics · Structural Analysis</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="section-inner">
+    <div class="section-header">
+      <p class="section-tag">// work history</p>
+      <h2>Professional Experience</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="experience-list">
+
+      <div class="exp-card">
+        <div class="exp-header">
+          <div>
+            <p class="exp-role">AI Adoption Specialist</p>
+            <p class="exp-company">AnselHill Academy Limited</p>
+          </div>
+          <span class="exp-date">May 2025 – Jan 2026</span>
+        </div>
+        <ul class="exp-bullets">
+          <li>Built generative AI automation pipelines in Python using LLMs, reducing manual workload across research teams by 50%.</li>
+          <li>Co-built a tutor, parent &amp; student management web app (Next.js, PostgreSQL, NextAuth, Generative AI) — delivered 50% faster than expected.</li>
+          <li>Designed reusable AI research templates cutting project timelines from weeks to under 24 hours and reducing research costs by 80%.</li>
+          <li>Integrated an AI tool ecosystem (Google NotebookLM, ChatGPT, Claude), removing redundant steps from weekly workflows.</li>
+        </ul>
+        <div class="exp-tags">
+          <span class="tag">Python</span><span class="tag">LLMs</span><span class="tag">Next.js</span><span class="tag">PostgreSQL</span><span class="tag">Generative AI</span>
+        </div>
+      </div>
+
+      <div class="exp-card">
+        <div class="exp-header">
+          <div>
+            <p class="exp-role">Freelance Data Scientist</p>
+            <p class="exp-company">Self-employed</p>
+          </div>
+          <span class="exp-date">Jan 2023 – May 2025</span>
+        </div>
+        <ul class="exp-bullets">
+          <li>Developed and deployed NLP sentiment-analysis models on news data, improving classification accuracy by 15%.</li>
+          <li>Built a Retrieval-Augmented Generation (RAG) system on LLMs to enable secure handling of sensitive enterprise data.</li>
+          <li>Deployed cloud-based ML solutions on Microsoft Azure (Azure ML, SQL, Docker), cutting data-processing time by 15%.</li>
+          <li>Predicted SpaceX Falcon 9 landings using SVM, logistic regression, and decision trees — achieving 90% accuracy.</li>
+          <li>Optimised delivery routes via geospatial modelling with NetworkX and Google OR-Tools, cutting delivery time by 25%.</li>
+        </ul>
+        <div class="exp-tags">
+          <span class="tag">Python</span><span class="tag">NLP</span><span class="tag">RAG</span><span class="tag">Azure ML</span><span class="tag">Docker</span><span class="tag">scikit-learn</span>
+        </div>
+      </div>
+
+      <div class="exp-card">
+        <div class="exp-header">
+          <div>
+            <p class="exp-role">Data Analyst Intern</p>
+            <p class="exp-company">Betaverse Analytics</p>
+          </div>
+          <span class="exp-date">Oct 2022 – Jan 2023</span>
+        </div>
+        <ul class="exp-bullets">
+          <li>Analysed housing-market data in Python and built Power BI dashboards to guide investment strategy with predictive forecasts.</li>
+          <li>Improved data-cleaning pipelines for airport traffic-delay models, raising prediction accuracy.</li>
+          <li>Led SQL training for junior analysts, focusing on query optimisation and efficient data workflows.</li>
+        </ul>
+        <div class="exp-tags">
+          <span class="tag">Python</span><span class="tag">Power BI</span><span class="tag">SQL</span><span class="tag">Pandas</span>
+        </div>
+      </div>
+
+      <div class="exp-card">
+        <div class="exp-header">
+          <div>
+            <p class="exp-role">Data Analytics Engineer</p>
+            <p class="exp-company">Defence Research and Development Bureau</p>
+          </div>
+          <span class="exp-date">Nov 2021 – Oct 2022</span>
+        </div>
+        <ul class="exp-bullets">
+          <li>Performed risk analysis and built contingency models, increasing operational efficiency by 20%.</li>
+          <li>Applied data-science methods to research data, contributing to a published paper on civil-engineering applications in defence.</li>
+        </ul>
+        <div class="exp-tags">
+          <span class="tag">Risk Modelling</span><span class="tag">Data Analysis</span><span class="tag">Research</span>
         </div>
       </div>
 
